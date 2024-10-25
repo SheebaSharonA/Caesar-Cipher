@@ -41,32 +41,6 @@ public class CeaserCipher {
 		
 		
 		
-		/*
-		
-		//Path pathFileToRead = Paths.get("src/com/projects/level2_projects/encryption/text_file.txt");
-
-		//List<String> lines= Files.readAllLines(pathFileToRead);
-		
-		ArrayList<String> linesToWrite = new ArrayList<String>();
-		
-		int shift = 5;
-		String str;
-		
-		for(String msg:lines)
-		{
-			 str = encrypt(msg,shift);
-			 linesToWrite.add(str);
-			
-		}
-		
-		
-		//Scanner sc = new Scanner(System.in);
-
-		Path pathFileToWrite = Paths.get("src/com/projects/level2_projects/encryption/text_file_write2.txt");
-		Files.write(pathFileToWrite, linesToWrite);
-		*/
-		
-		
 		writer.close();
 
 		
